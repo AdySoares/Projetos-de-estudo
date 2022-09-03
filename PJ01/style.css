@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+
+}
+
+h1{
+    font-family: inter;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    line-height: 56px;
+    margin: 72px auto 32px;
+}
+
+
+
+
+span, a{ 
+    color: #FF9900;
+}
+
+p{ 
+    color: #7D7987;
+    margin-bottom: 71px;
+}
+
+#Hero{
+   width: 592px;
+   margin: auto;
+}
+
+#flooter{
+    width: 568px;
+    border-top: 1px solid #e0e5e9;
+    padding-top: 18px;
+    text-align: center;
+    margin: auto;
+    
+}
+
+#flooter a + a {
+    
+    margin-left: 28px;
+}
+
+#balls{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+
+#title{
+    font-weight: bold;
+}
