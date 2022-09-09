@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #4E4958;
+    
+    background-color: #E5E5E5;
+}
+
+body::before{
+    content: '';
+    display: block;
+    background-color: #121214;
+    height: 368px;
+    width: 100%;
+    
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.page{
+
+    width: 732px;
+    margin: 80px auto;
+
+}
+
+header{
+    width: 319px;
+}
+
+header h1{
+    font-family: 'Archivo';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+header p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #42D3FF;
+    margin-top: 24px;
+}
+
+form{
+
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+
+    margin-top: 42px;
+    background-color: white;
+    padding: 64px;
+    border-radius: 4px 4px 0px 0px;
+
+}
+
+fieldset{
+
+    border-bottom: 1px solid #D6D6D6;
+    padding-bottom: 16px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+
+    color: #32264D;
+
+}
+
+label{
+
+    margin-bottom: 8px;
+
+}
+
+input, select{
+    
+    height: 56px;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+input, select, textarea{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    
+    color: #C1BCCC;
+        
+}
+
+textarea{
+    
+    box-sizing: border-box;
+    width: 608px;
+    height: 168px;
+    resize: none;
+    
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    
+    cursor: text;
+    padding: 24px;
+    
+}
+
+input[type="checkbox"]{
+    width: 24px;
+    height: 24px;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+}
+
+.Condições{
+
+    margin-left: 12px;
+    color: #C1BCCC;
+
+}
+
+#Infos, #Privacidade{
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.Campos{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.check{
+    display: flex;
+    align-items: stretch;
+    gap: 16px;
+}
+
+.Datetime{
+    
+    margin-top: 24px;
+    display: flex;
+    gap: 20px;
+}
+
+.Data{
+
+   width: 312px;
+
+}
+
+.bown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 136px;
+    left: 351px;
+    top: 1712px;
+
+    border-top: 1px solid #D6D6D6;
+    background: #F0F0F4;
+    border-radius: 0px 0px 8px 8px;
+}
+
+
+button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 608px;
+    height: 56px;
+
+    background: #04D361;
+    border-radius: 8px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #FFF;
+
+}
+button:hover{
+
+    cursor: pointer;
+
+}

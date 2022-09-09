@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Poppins&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <title>Formulário</title>
+
+</head>
+<body>
+        <div class="page">
+
+            <header>
+                <h1>
+                    Crie e compartilhe seu evento.
+                </h1>
+
+                <p>O primeiro passo, é preencher esse formulário de inscrição.</p>
+            </header>
+
+            <form action="">
+            
+                <div id="Infos">
+                    <fieldset>
+                        Informações do Evento
+                    </fieldset>
+    
+                    <div class="Campos">
+                        <label for="Titulo">Título do evento <span class="Condições">(mínimo 8 caracteres)</span> </label>
+
+                        <input type="text" name="Titulo do Evento" id="Titulo">
+                    </div>
+
+                    <div class="Campos">
+                        <label for="link">Link do evento <span class="Condições">(Comece com HTTPS://)</span></label>
+
+                        <input type="text" name="Link do Evento" id="Link">
+                    </div>
+
+                    <div class="Campos">
+                        <label for="Watts">Whatsapp para contato<span class="Condições">(Somente Números)</span></label>
+
+                        <input type="number" name="WhatsappDoEvento" id="Whatts">
+                    </div>
+
+                    <div class="Campos">
+                        <label for="Watts">Informações extras</label>
+
+                        <textarea name="Infos.DoEvento" id="IformaçãoDoEvento"></textarea>
+                    </div>
+
+                    <div class="Campos">
+                        <label for="TipoDoEvento">Categoria</label>
+                        <select name="TipoDoEvento" id="TipoDoEvento">
+                           <option value="None" selected>Tipo Do Evento</option>
+                           <option value="Balada">Balada</option>
+                            <option value="Aniversário">Aniversário</option>
+                            <option value="Casamento">Casamento</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div id="Privacidade">
+                    <fieldset>
+                         Privacidade
+                    </fieldset>
+    
+                    <div class="Campos">
+                        <label for="Email">Email do administrador <span class="Condições">(Digite um Email válido)</span> </label>
+
+                        <input type="email" name="Email" id="Email">
+                    </div>
+
+                    <div class="Campos">
+                        <label for="Senha">Senha de acesso para os participantes <span class="Condições">(Mínimo 8 caracteres)</span></label>
+
+                        <input type="password" name="current-password" id="Senha">
+                    </div>
+
+                    <div class="check">
+                        <input type="checkbox" name="EventoPrivado" id="EventoPrivado">
+                        <label for="Evento privado">Evento privado?</label>
+                        
+                    </div>
+
+                </div>
+
+
+                <div id="Data">
+                    <fieldset>
+                         Data e horário
+                    </fieldset>
+    
+                    <div class="Datetime">
+
+                        <div class="Campos Data">
+                            <label for="Titulo">Data</label>
+
+                            <input type="date" name="DataDoEvento" id="DataDoEvento">
+                        </div>
+
+                        <div class="Campos">
+                            <label for="Horário">Das</label> 
+
+                            <input type="time" name="Horário" id="HEntrada">
+                        </div>
+
+                        <div class="Campos">
+                            <label for="Horário">Até</label>
+                        
+                            <input type="time" name="Horário" id="HSaída">
+                        </div>
+                    </div>
+                
+                </div>
+            </form>
+
+            <div class="bown">
+
+                <button type="submit">Salvar Evento</button>
+
+            </div>
+
+        </div>
+</body>
+</html>
